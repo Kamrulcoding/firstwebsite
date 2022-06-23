@@ -1,0 +1,137 @@
+/* This is my comment */
+body {
+font-family: Arial, Helvetica, sans-serif;
+letter-spacing: 2px;
+font-weight: 550;
+font-size: medium;
+color: rgb(100, 12, 12);
+background-image: url(/london.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+h1 {
+    font-size:larger;
+    color: rgb(205, 172, 87);
+    font-style: oblique;
+    font-stretch: extra-expanded;
+}
+.pagecolor {
+    font-size: large;
+    font-style: normal;
+    color: rgb(114, 25, 9);
+}
+.firstpara {
+font-size:large;
+text-align: center;
+color: rgb(99, 37, 122);
+font-style:Pacifico;
+text-align-last:center;
+text-shadow:0 0 6px #f2f2e5;
+}
+
+.faru {
+  text-shadow:0 0 10px #fbd1885c;
+}
+
+.firstpara2 {
+font-size:x-large;
+font-weight:600;
+color: rgb(40, 20, 109);
+font-style: inherit;
+font-stretch:condensed;
+text-align-last: center;
+padding-left: 2%;
+} 
+ul {
+line-height: 180%;
+list-style:disc;
+display: table;
+margin: 0 auto;
+}
+
+.kam5 {
+  font-size:x-large ;
+  font-weight: 600;
+  font-style:italic;
+  color: rgb(250, 248, 253);
+  text-shadow:0 0 15px #0a0a09;
+}
+
+.kam6 {
+  font: 400 20px/1.2 'Merienda One', Helvetica, sans-serif;
+  color: rgb(0, 0, 0);
+  text-shadow: 3px 3px 3px rgb(230, 220, 220);
+  text-align: center;
+}
+
+
+#kam {
+    background-color: rgba(131, 214, 218, 0.16);
+    background-position:50 ;
+    object-position: center;
+    font-stretch: normal;
+    font-size: medium;
+    text-align: center;
+}
+.gallerycontainer {
+display:flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+}
+
+.piccontainer {
+  width: 400px;
+  height: 200px;
+  padding-left: 60px;
+  }
+
+div.gallery {
+    margin: 0;
+    display: block;
+    border: 1px solid #ccc;
+    float:left;
+    width: 200px; position:relative;
+    height: 0vh;
+    object-fit: cover
+    
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 200px;;
+    height: 180px;
+  }
+  
+  div.desc {
+    padding: 10px;
+    text-align: center;
+    font-size: medium;
+    font-style: oblique;
+    font-weight: 600;
+    color: rgb(213, 160, 24);
+  }
+
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+}
+.nav-item{
+    display:flex;
+    box-sizing: border-box;
+    background-color: rgba(240, 139, 39, 0.809);
+    color: white;
+    padding: 10px;
+    border-color: rgb(93, 68, 121);
+    border-width: 1px;
+    border-style:ridge;
+    border-radius: 50px;
+    width: 150px;
+    justify-content: center;
+
+border-collapse: collapse; }
