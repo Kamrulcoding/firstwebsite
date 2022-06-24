@@ -5,7 +5,7 @@ letter-spacing: 2px;
 font-weight: 550;
 font-size: medium;
 color: rgb(100, 12, 12);
-background-image: url(/london.jpg);
+background-image: url(london.jpg);
 background-repeat: no-repeat;
 background-size: cover;
 }
